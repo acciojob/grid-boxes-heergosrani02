@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 2fr 2fr 2fr 2fr;
+            width: 80vw;
+            padding: 10px;
+            border: 5px solid white;
+        }
+
+        .item {
+            background-color: green;
+            border: 2px solid white;
+            font-size: 24px;
+			padding: 4px 9px;
+            color: white;
+        }
+
+        .item1 {
+            grid-column: span 3;
+        }
+
+        .item2 {
+            grid-row: span 5;
+        }
+
+        .item3 {
+            grid-column: span 1;
+        }
+
+		.item4{
+			grid-column: span 2;
+		}
+
+        .item5 {
+            grid-column: span 2;
+        }
+
+		
+        .item7, .item8{
+			grid-column: span 1;
+		}
+
+		.item9 {
+            grid-column: span 1;
+        }
+
+        .item10 {
+            grid-column: span 3;
+        }

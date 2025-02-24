@@ -1,8 +1,8 @@
 /*  your css code here. If applicable */
         #grid{
             display: grid;
-            grid-template-columns: 124px 124px 124px 124px 124px;
-            grid-template-rows: 242.5px 242.5px 242.5px 242.5px;
+            grid-template-rows: 124px 124px 124px 124px 124px;
+            grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
             padding: 10px;
 			grid-gap: 10px 10px;
         }
@@ -16,37 +16,21 @@
         }
 
         .item1 {
-            grid-column: span 6;
+            grid-column: span 4;
         }
 
         .item2 {
             grid-row: span 4;
         }
 
-        .item3 {
-            grid-column: span 2;
-        }
-
 		.item4{
-			grid-column: span 3;
+			grid-column: span 2;
 		}
 
         .item5 {
-            grid-column: span 3;
+            grid-column: span 2;
         }
 
-		.item6{
-			grid-column: span 2;
-		}
-
-        .item7, .item8{
-			grid-column: span 2;
-		}
-	
-	.item9{
-			grid-column: span 1;
-		}
-
         .item10 {
-            grid-column: span 5;
+            grid-column: span 3;
         }
